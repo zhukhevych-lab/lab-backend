@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\controllers",
+    "\\src\\dtos",
+    "\\src\\middlewares",
+    "\\src\\repositories",
+    "\\src\\routes",
+    "\\src\\services",
+    "\\src\\utils"
+  ],
+  "SelectedNode": "\\src\\services\\comment.service.ts",
+  "PreviewInSolutionExplorer": false
+}

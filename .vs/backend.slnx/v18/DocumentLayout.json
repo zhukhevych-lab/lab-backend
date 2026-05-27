@@ -1,0 +1,1104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\comment.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\comment.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\post.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\post.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\comment.controller.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\controllers\\comment.controller.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\post.controller.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\controllers\\post.controller.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\user.controller.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\controllers\\user.controller.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\post.repository.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\repositories\\post.repository.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\comment.repository.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\repositories\\comment.repository.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\user.repository.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\repositories\\user.repository.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\user.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\user.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\command.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\command.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\comment.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\comment.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\post.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\post.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreatePostRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CreatePostRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateUserRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UpdateUserRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateUser.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\validateUser.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\error.middleware.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\middlewares\\error.middleware.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\logger.middleware.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\middlewares\\logger.middleware.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\.eslintrc.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.eslintrc.json||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UserResponseDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UserResponseDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validatePost.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\validatePost.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateComment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\validateComment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\AppError.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\AppError.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdatePostRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UpdatePostRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateCommentRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UpdateCommentRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\PostResponseDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\PostResponseDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateUserRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CreateUserRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateCommentRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CreateCommentRequestDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CommentResponseDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CommentResponseDto.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\comment.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\controllers\\comment.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\comment.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\comment.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\post.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\controllers\\post.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\comment.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\comment.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\comment.repository.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\repositories\\comment.repository.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateComment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\validateComment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CommentResponseDto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CommentResponseDto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateCommentRequestDto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UpdateCommentRequestDto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreatePostRequestDto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CreatePostRequestDto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateCommentRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CreateCommentRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\user.repository.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\repositories\\user.repository.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\user.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\user.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\user.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\user.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\AppError.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\AppError.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateUser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\validateUser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\post.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\post.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\post.repository.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\repositories\\post.repository.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\logger.middleware.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\middlewares\\logger.middleware.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\error.middleware.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\middlewares\\error.middleware.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UserResponseDto.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UserResponseDto.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateUserRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UpdateUserRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdatePostRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\UpdatePostRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\PostResponseDto.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\PostResponseDto.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateUserRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\dtos\\CreateUserRequestDto.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\user.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\controllers\\user.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validatePost.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\validatePost.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\post.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\post.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "comment.service.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\comment.service.ts",
+              "RelativeDocumentMoniker": "src\\services\\comment.service.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\comment.service.ts",
+              "RelativeToolTip": "src\\services\\comment.service.ts",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAYwHYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:41:57.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "post.service.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\post.service.ts",
+              "RelativeDocumentMoniker": "src\\services\\post.service.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\post.service.ts",
+              "RelativeToolTip": "src\\services\\post.service.ts",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwJgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:41:58.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user.service.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\user.service.ts",
+              "RelativeDocumentMoniker": "src\\services\\user.service.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\user.service.ts",
+              "RelativeToolTip": "src\\services\\user.service.ts",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwIsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:42:26.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "user.repository.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\user.repository.ts",
+              "RelativeDocumentMoniker": "src\\repositories\\user.repository.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\user.repository.ts",
+              "RelativeToolTip": "src\\repositories\\user.repository.ts",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:40:30.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "comment.repository.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\comment.repository.ts",
+              "RelativeDocumentMoniker": "src\\repositories\\comment.repository.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\comment.repository.ts",
+              "RelativeToolTip": "src\\repositories\\comment.repository.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:40:08.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "post.repository.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\post.repository.ts",
+              "RelativeDocumentMoniker": "src\\repositories\\post.repository.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\post.repository.ts",
+              "RelativeToolTip": "src\\repositories\\post.repository.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:40:10.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.controller.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\user.controller.ts",
+              "RelativeDocumentMoniker": "src\\controllers\\user.controller.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\user.controller.ts",
+              "RelativeToolTip": "src\\controllers\\user.controller.ts",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwJUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:34:55.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "post.controller.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\post.controller.ts",
+              "RelativeDocumentMoniker": "src\\controllers\\post.controller.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\post.controller.ts",
+              "RelativeToolTip": "src\\controllers\\post.controller.ts",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAYwJAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:35:19.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "comment.controller.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\comment.controller.ts",
+              "RelativeDocumentMoniker": "src\\controllers\\comment.controller.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\comment.controller.ts",
+              "RelativeToolTip": "src\\controllers\\comment.controller.ts",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwI4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:35:44.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "user.routes.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\user.routes.ts",
+              "RelativeDocumentMoniker": "src\\routes\\user.routes.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\user.routes.ts",
+              "RelativeToolTip": "src\\routes\\user.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:41:23.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "command.txt",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\command.txt",
+              "RelativeDocumentMoniker": "src\\command.txt",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\command.txt",
+              "RelativeToolTip": "src\\command.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-07T21:52:21.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "comment.routes.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\comment.routes.ts",
+              "RelativeDocumentMoniker": "src\\routes\\comment.routes.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\comment.routes.ts",
+              "RelativeToolTip": "src\\routes\\comment.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:41:39.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "post.routes.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\post.routes.ts",
+              "RelativeDocumentMoniker": "src\\routes\\post.routes.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\post.routes.ts",
+              "RelativeToolTip": "src\\routes\\post.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:41:06.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreatePostRequestDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreatePostRequestDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\CreatePostRequestDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreatePostRequestDto.ts",
+              "RelativeToolTip": "src\\dtos\\CreatePostRequestDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:36:49.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateUserRequestDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateUserRequestDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\UpdateUserRequestDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateUserRequestDto.ts",
+              "RelativeToolTip": "src\\dtos\\UpdateUserRequestDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:39:08.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\app.ts",
+              "RelativeDocumentMoniker": "src\\app.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\app.ts",
+              "RelativeToolTip": "src\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:44:35.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "validateUser.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateUser.ts",
+              "RelativeDocumentMoniker": "src\\utils\\validateUser.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateUser.ts",
+              "RelativeToolTip": "src\\utils\\validateUser.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:43:49.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "error.middleware.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\error.middleware.ts",
+              "RelativeDocumentMoniker": "src\\middlewares\\error.middleware.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\error.middleware.ts",
+              "RelativeToolTip": "src\\middlewares\\error.middleware.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:39:38.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "logger.middleware.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\logger.middleware.ts",
+              "RelativeDocumentMoniker": "src\\middlewares\\logger.middleware.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\logger.middleware.ts",
+              "RelativeToolTip": "src\\middlewares\\logger.middleware.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:39:54.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": ".eslintrc.json",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\.eslintrc.json",
+              "RelativeDocumentMoniker": ".eslintrc.json",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\.eslintrc.json",
+              "RelativeToolTip": ".eslintrc.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-08T09:59:51.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserResponseDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UserResponseDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\UserResponseDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UserResponseDto.ts",
+              "RelativeToolTip": "src\\dtos\\UserResponseDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:38:04.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "index.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\index.ts",
+              "RelativeDocumentMoniker": "src\\index.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\index.ts",
+              "RelativeToolTip": "src\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:45:12.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "validatePost.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validatePost.ts",
+              "RelativeDocumentMoniker": "src\\utils\\validatePost.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validatePost.ts",
+              "RelativeToolTip": "src\\utils\\validatePost.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:43:39.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "validateComment.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateComment.ts",
+              "RelativeDocumentMoniker": "src\\utils\\validateComment.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateComment.ts",
+              "RelativeToolTip": "src\\utils\\validateComment.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:43:38.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppError.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\AppError.ts",
+              "RelativeDocumentMoniker": "src\\utils\\AppError.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\AppError.ts",
+              "RelativeToolTip": "src\\utils\\AppError.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:43:25.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdatePostRequestDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdatePostRequestDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\UpdatePostRequestDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdatePostRequestDto.ts",
+              "RelativeToolTip": "src\\dtos\\UpdatePostRequestDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:38:56.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateCommentRequestDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateCommentRequestDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\UpdateCommentRequestDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateCommentRequestDto.ts",
+              "RelativeToolTip": "src\\dtos\\UpdateCommentRequestDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:38:55.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PostResponseDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\PostResponseDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\PostResponseDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\PostResponseDto.ts",
+              "RelativeToolTip": "src\\dtos\\PostResponseDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:37:45.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateUserRequestDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateUserRequestDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\CreateUserRequestDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateUserRequestDto.ts",
+              "RelativeToolTip": "src\\dtos\\CreateUserRequestDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:37:10.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateCommentRequestDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateCommentRequestDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\CreateCommentRequestDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateCommentRequestDto.ts",
+              "RelativeToolTip": "src\\dtos\\CreateCommentRequestDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:36:43.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommentResponseDto.ts",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CommentResponseDto.ts",
+              "RelativeDocumentMoniker": "src\\dtos\\CommentResponseDto.ts",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CommentResponseDto.ts",
+              "RelativeToolTip": "src\\dtos\\CommentResponseDto.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-07T20:36:42.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T22:23:10.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\tsconfig.json",
+              "RelativeDocumentMoniker": "tsconfig.json",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\tsconfig.json",
+              "RelativeToolTip": "tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T22:41:07.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\tsconfig.json",
+              "RelativeDocumentMoniker": "src\\tsconfig.json",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\tsconfig.json",
+              "RelativeToolTip": "src\\tsconfig.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T20:23:15.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\package.json",
+              "RelativeDocumentMoniker": "src\\package.json",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\package.json",
+              "RelativeToolTip": "src\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T20:27:18.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\package-lock.json",
+              "RelativeDocumentMoniker": "src\\package-lock.json",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\package-lock.json",
+              "RelativeToolTip": "src\\package-lock.json",
+              "ViewState": "AgIAAHgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-07T20:27:13.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "comment.routes.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\comment.routes.js",
+              "RelativeDocumentMoniker": "src\\routes\\comment.routes.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\comment.routes.js",
+              "RelativeToolTip": "src\\routes\\comment.routes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:14:06.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "comment.controller.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\comment.controller.js",
+              "RelativeDocumentMoniker": "src\\controllers\\comment.controller.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\comment.controller.js",
+              "RelativeToolTip": "src\\controllers\\comment.controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:13:35.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "comment.service.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\comment.service.js",
+              "RelativeDocumentMoniker": "src\\services\\comment.service.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\comment.service.js",
+              "RelativeToolTip": "src\\services\\comment.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:12:49.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "comment.repository.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\comment.repository.js",
+              "RelativeDocumentMoniker": "src\\repositories\\comment.repository.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\comment.repository.js",
+              "RelativeToolTip": "src\\repositories\\comment.repository.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:12:32.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "validateComment.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateComment.js",
+              "RelativeDocumentMoniker": "src\\utils\\validateComment.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateComment.js",
+              "RelativeToolTip": "src\\utils\\validateComment.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:12:14.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CommentResponseDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CommentResponseDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\CommentResponseDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CommentResponseDto.js",
+              "RelativeToolTip": "src\\dtos\\CommentResponseDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:11:52.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateCommentRequestDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateCommentRequestDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\UpdateCommentRequestDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateCommentRequestDto.js",
+              "RelativeToolTip": "src\\dtos\\UpdateCommentRequestDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:11:35.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\app.js",
+              "RelativeDocumentMoniker": "src\\app.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\app.js",
+              "RelativeToolTip": "src\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:45:15.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateCommentRequestDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateCommentRequestDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\CreateCommentRequestDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateCommentRequestDto.js",
+              "RelativeToolTip": "src\\dtos\\CreateCommentRequestDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-07T20:10:19.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "post.controller.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\post.controller.js",
+              "RelativeDocumentMoniker": "src\\controllers\\post.controller.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\post.controller.js",
+              "RelativeToolTip": "src\\controllers\\post.controller.js",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAGIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:28:31.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "validateUser.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateUser.js",
+              "RelativeDocumentMoniker": "src\\utils\\validateUser.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validateUser.js",
+              "RelativeToolTip": "src\\utils\\validateUser.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:34:33.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AppError.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\AppError.js",
+              "RelativeDocumentMoniker": "src\\utils\\AppError.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\AppError.js",
+              "RelativeToolTip": "src\\utils\\AppError.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:34:19.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "user.service.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\user.service.js",
+              "RelativeDocumentMoniker": "src\\services\\user.service.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\user.service.js",
+              "RelativeToolTip": "src\\services\\user.service.js",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:31:06.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "user.routes.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\user.routes.js",
+              "RelativeDocumentMoniker": "src\\routes\\user.routes.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\user.routes.js",
+              "RelativeToolTip": "src\\routes\\user.routes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:31:13.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\index.js",
+              "RelativeDocumentMoniker": "src\\index.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\index.js",
+              "RelativeToolTip": "src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T16:29:59.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "user.repository.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\user.repository.js",
+              "RelativeDocumentMoniker": "src\\repositories\\user.repository.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\user.repository.js",
+              "RelativeToolTip": "src\\repositories\\user.repository.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:31:10.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "post.repository.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\post.repository.js",
+              "RelativeDocumentMoniker": "src\\repositories\\post.repository.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\repositories\\post.repository.js",
+              "RelativeToolTip": "src\\repositories\\post.repository.js",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:31:00.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreatePostRequestDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreatePostRequestDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\CreatePostRequestDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreatePostRequestDto.js",
+              "RelativeToolTip": "src\\dtos\\CreatePostRequestDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:55:12.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "post.routes.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\post.routes.js",
+              "RelativeDocumentMoniker": "src\\routes\\post.routes.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\routes\\post.routes.js",
+              "RelativeToolTip": "src\\routes\\post.routes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:30:31.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "logger.middleware.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\logger.middleware.js",
+              "RelativeDocumentMoniker": "src\\middlewares\\logger.middleware.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\logger.middleware.js",
+              "RelativeToolTip": "src\\middlewares\\logger.middleware.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:30:57.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "error.middleware.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\error.middleware.js",
+              "RelativeDocumentMoniker": "src\\middlewares\\error.middleware.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\middlewares\\error.middleware.js",
+              "RelativeToolTip": "src\\middlewares\\error.middleware.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:30:55.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "UserResponseDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UserResponseDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\UserResponseDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UserResponseDto.js",
+              "RelativeToolTip": "src\\dtos\\UserResponseDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:53:18.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UpdateUserRequestDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateUserRequestDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\UpdateUserRequestDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdateUserRequestDto.js",
+              "RelativeToolTip": "src\\dtos\\UpdateUserRequestDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:53:03.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UpdatePostRequestDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdatePostRequestDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\UpdatePostRequestDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\UpdatePostRequestDto.js",
+              "RelativeToolTip": "src\\dtos\\UpdatePostRequestDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:55:16.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PostResponseDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\PostResponseDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\PostResponseDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\PostResponseDto.js",
+              "RelativeToolTip": "src\\dtos\\PostResponseDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:55:30.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CreateUserRequestDto.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateUserRequestDto.js",
+              "RelativeDocumentMoniker": "src\\dtos\\CreateUserRequestDto.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\dtos\\CreateUserRequestDto.js",
+              "RelativeToolTip": "src\\dtos\\CreateUserRequestDto.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:52:28.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "user.controller.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\user.controller.js",
+              "RelativeDocumentMoniker": "src\\controllers\\user.controller.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\controllers\\user.controller.js",
+              "RelativeToolTip": "src\\controllers\\user.controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:38:55.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "validatePost.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validatePost.js",
+              "RelativeDocumentMoniker": "src\\utils\\validatePost.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\utils\\validatePost.js",
+              "RelativeToolTip": "src\\utils\\validatePost.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:38:07.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "post.service.js",
+              "DocumentMoniker": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\post.service.js",
+              "RelativeDocumentMoniker": "src\\services\\post.service.js",
+              "ToolTip": "C:\\Users\\radiu\\Desktop\\lab2\\backend\\src\\services\\post.service.js",
+              "RelativeToolTip": "src\\services\\post.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T15:27:42.034Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
