@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f8;
+    padding:40px;
+}
+
+h1{
+    margin-bottom:30px;
+    color: #2c3e50;
+}
+
+.container{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+/* Форма */
+form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:320px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+form label{
+    font-weight:bold;
+    display:block;
+    margin-top:12px;
+    font-size: 14px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 15px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+button:hover { opacity: 0.8; }
+
+button[type="submit"]{ background:#2ecc71; color:white; }
+button[type="reset"]{ background:#95a5a6; color:white; }
+
+/* Панель фільтрів */
+.filters-panel {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.filters-panel input { flex: 2; }
+.filters-panel select { flex: 1; }
+
+/* Таблиця */
+.table-container { flex: 1; }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+thead{ background:#2c3e50; color:white; }
+
+th, td{
+    padding:12px;
+    text-align:left;
+    border-bottom:1px solid #eee;
+}
+
+tr:hover{ background:#f9f9f9; }
+
+/* Кнопки в таблиці */
+.action-btn{
+    padding:5px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.delete{ background:#e74c3c; color:white; }
+.edit{ background:#3498db; color:white; }
+
+.error-text{ color:#e74c3c; font-size:13px; margin-top: 10px; }

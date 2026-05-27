@@ -1,0 +1,15 @@
+14:29:31 : Get drive passport... OK
+14:30:57 : NVMe Recallibration...  by reading... 
+14:30:57 : NVMe Recallibration...  by reading... OK
+14:30:57 : Starting Reading, LBA=0..500118191, FULL, sequential access, timeout 10000ms
+14:36:49 : *** Scan results: no warnings, no errors. Last block at 500118191 (256 GB), time 5 minutes 52 seconds. 
+14:36:49 : Speed: Maximum 2249 MB/s. Average 1211 MB/s. Minimum 173 MB/s. 424 points.
+14:57:28 : Program terminated.
+14:16:52 : Get drive passport... OK
+14:17:10 : NVMe Recallibration...  by reading... 
+14:17:10 : NVMe Recallibration...  by reading... OK
+14:17:10 : Starting Reading, LBA=0..500118191, FULL, sequential access, timeout 10000ms
+14:17:22 : Command interrupted by user!
+14:17:22 : *** Scan results: no warnings, no errors. Last block at 11010048 (6 GB), time 12 seconds. 
+14:17:22 : Speed: Maximum 592 MB/s. Average 504 MB/s. Minimum 417 MB/s. 20 points.
+14:18:11 : Program terminated.

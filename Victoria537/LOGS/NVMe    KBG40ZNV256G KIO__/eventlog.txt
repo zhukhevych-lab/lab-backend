@@ -1,0 +1,4 @@
+14:29:31 : Press F1 to About/HELP
+14:29:31 : Model: NVMe    KBG40ZNV256G KIO; Capacity 500118192 LBAs
+14:16:52 : Press F1 to About/HELP
+14:16:52 : Model: NVMe    KBG40ZNV256G KIO; Capacity 500118192 LBAs
