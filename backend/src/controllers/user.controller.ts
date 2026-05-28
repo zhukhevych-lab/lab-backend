@@ -7,58 +7,67 @@ import UserResponseDto from "../dtos/UserResponseDto";
 type IdParams = { id: string };
 type Query = Record<string, string | undefined>;
 
-export const getAll = (
+export const getAll = async (
   req: Request<IdParams, unknown, unknown, Query>,
   res: Response,
+  next: NextFunction,
 ) => {
-  const result = service.getAll({
-    page: Number(req.query.page) || 1,
-    pageSize: Number(req.query.pageSize) || 10,
-    sortBy: req.query.sortBy as "id" | "name" | "email" | undefined,
-    order: req.query.order as "asc" | "desc" | undefined,
-    name: req.query.name,
-  });
+  try {
+    const result = await service.getAll({
+      page: Number(req.query.page) || 1,
+      pageSize: Number(req.query.pageSize) || 10,
+      sortBy: req.query.sortBy as "id" | "name" | "email" | undefined,
+      order: req.query.order as "asc" | "desc" | undefined,
+      name: req.query.name,
+    });
 
-  return res.json({
-    items: result.items.map((u) => new UserResponseDto(u)),
-    total: result.total,
-    page: result.page,
-    pageSize: result.pageSize,
-    totalPages: result.totalPages,
-  });
+    return res.json({
+      items: result.items.map((u) => new UserResponseDto(u)),
+      total: result.total,
+      page: result.page,
+      pageSize: result.pageSize,
+      totalPages: result.totalPages,
+    });
+  } catch (err) {
+    next(err);
+  }
 };
 
-export const getById = (
+export const getById = async (
   req: Request<IdParams>,
   res: Response,
   next: NextFunction,
 ) => {
   try {
-    const user = service.getById(Number(req.params.id));
+    const user = await service.getById(Number(req.params.id));
     return res.json(new UserResponseDto(user));
   } catch (err) {
     next(err);
   }
 };
 
-export const create = (req: Request, res: Response, next: NextFunction) => {
+export const create = async (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
   try {
     const dto = new CreateUserRequestDto(req.body);
-    const user = service.create({ name: dto.name, email: dto.email });
+    const user = await service.create({ name: dto.name, email: dto.email });
     return res.status(201).json(new UserResponseDto(user));
   } catch (err) {
     next(err);
   }
 };
 
-export const update = (
+export const update = async (
   req: Request<IdParams>,
   res: Response,
   next: NextFunction,
 ) => {
   try {
     const dto = new UpdateUserRequestDto(req.body);
-    const user = service.update(Number(req.params.id), {
+    const user = await service.update(Number(req.params.id), {
       name: dto.name,
       email: dto.email,
     });
@@ -68,13 +77,13 @@ export const update = (
   }
 };
 
-export const remove = (
+export const remove = async (
   req: Request<IdParams>,
   res: Response,
   next: NextFunction,
 ) => {
   try {
-    service.remove(Number(req.params.id));
+    await service.remove(Number(req.params.id));
     return res.status(204).send();
   } catch (err) {
     next(err);

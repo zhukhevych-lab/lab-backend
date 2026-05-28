@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_access_requests_userId ON AccessRequests(userId);

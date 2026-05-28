@@ -16,17 +16,17 @@ export const getAll = (
     pageSize: Number(req.query.pageSize) || 10,
     status: req.query.status,
     accessType: req.query.accessType,
-    sortBy: req.query.sortBy as "id" | "date" | "status" | undefined,
-    order: req.query.order as "asc" | "desc" | undefined,
+    sortBy: req.query.sortBy,
+    order: req.query.order,
   });
 
-  return res.json({
-    items: result.items.map((r) => new AccessRequestResponseDto(r)),
-    total: result.total,
-    page: result.page,
-    pageSize: result.pageSize,
-    totalPages: result.totalPages,
-  });
+  return result.then((data) =>
+    res.json({
+      items: data.items.map((r) => new AccessRequestResponseDto(r)),
+      page: data.page,
+      pageSize: data.pageSize,
+    }),
+  );
 };
 
 export const getById = (
@@ -34,24 +34,66 @@ export const getById = (
   res: Response,
   next: NextFunction,
 ) => {
-  try {
-    const record = service.getById(Number(req.params.id));
-    return res.json(new AccessRequestResponseDto(record));
-  } catch (err) {
-    next(err);
-  }
+  service
+    .getById(Number(req.params.id))
+    .then((record) => res.json(new AccessRequestResponseDto(record)))
+    .catch(next);
+};
+
+export const getWithUser = (
+  req: Request<IdParams>,
+  res: Response,
+  next: NextFunction,
+) => {
+  service
+    .getWithUser(Number(req.params.id))
+    .then((record) => res.json({ data: record }))
+    .catch(next);
+};
+
+export const getStats = (
+  _req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
+  service
+    .getStats()
+    .then((stats) => res.json({ data: stats }))
+    .catch(next);
+};
+
+export const search = (
+  req: Request<IdParams, unknown, unknown, Query>,
+  res: Response,
+  next: NextFunction,
+) => {
+  const q = req.query.q ?? "";
+  service
+    .search(q)
+    .then((items) =>
+      res.json({
+        data: items.map((r) => new AccessRequestResponseDto(r)),
+        warning:
+          "This endpoint uses string concatenation and is vulnerable to SQL injection. For demo purposes only.",
+      }),
+    )
+    .catch(next);
 };
 
 export const create = (req: Request, res: Response, next: NextFunction) => {
   try {
     const dto = new CreateAccessRequestDto(req.body);
-    const record = service.create({
-      userId: dto.userId,
-      date: dto.date,
-      accessType: dto.accessType,
-      comments: dto.comments,
-    });
-    return res.status(201).json(new AccessRequestResponseDto(record));
+    service
+      .create({
+        userId: dto.userId,
+        date: dto.date,
+        accessType: dto.accessType,
+        comments: dto.comments,
+      })
+      .then((record) =>
+        res.status(201).json(new AccessRequestResponseDto(record)),
+      )
+      .catch(next);
   } catch (err) {
     next(err);
   }
@@ -64,13 +106,15 @@ export const update = (
 ) => {
   try {
     const dto = new UpdateAccessRequestDto(req.body);
-    const record = service.update(Number(req.params.id), {
-      date: dto.date,
-      accessType: dto.accessType,
-      comments: dto.comments,
-      status: dto.status,
-    });
-    return res.json(new AccessRequestResponseDto(record));
+    service
+      .update(Number(req.params.id), {
+        date: dto.date,
+        accessType: dto.accessType,
+        comments: dto.comments,
+        status: dto.status,
+      })
+      .then((record) => res.json(new AccessRequestResponseDto(record)))
+      .catch(next);
   } catch (err) {
     next(err);
   }
@@ -81,10 +125,8 @@ export const remove = (
   res: Response,
   next: NextFunction,
 ) => {
-  try {
-    service.remove(Number(req.params.id));
-    return res.status(204).send();
-  } catch (err) {
-    next(err);
-  }
+  service
+    .remove(Number(req.params.id))
+    .then(() => res.status(204).send())
+    .catch(next);
 };
