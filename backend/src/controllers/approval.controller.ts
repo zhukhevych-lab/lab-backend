@@ -7,47 +7,54 @@ import ApprovalResponseDto from "../dtos/ApprovalResponseDto";
 type IdParams = { id: string };
 type Query = Record<string, string | undefined>;
 
-export const getAll = (
+export const getAll = async (
   req: Request<IdParams, unknown, unknown, Query>,
   res: Response,
+  next: NextFunction,
 ) => {
-  const result = service.getAll({
-    page: Number(req.query.page) || 1,
-    pageSize: Number(req.query.pageSize) || 10,
-    decision: req.query.decision,
-    accessRequestId: req.query.accessRequestId
-      ? Number(req.query.accessRequestId)
-      : undefined,
-    sortBy: req.query.sortBy as "id" | "decision" | "createdAt" | undefined,
-    order: req.query.order as "asc" | "desc" | undefined,
-  });
+  try {
+    const result = await service.getAll({
+      page: Number(req.query.page) || 1,
+      pageSize: Number(req.query.pageSize) || 10,
+      decision: req.query.decision,
+      accessRequestId: req.query.accessRequestId
+        ? Number(req.query.accessRequestId)
+        : undefined,
+      sortBy: req.query.sortBy as "id" | "decision" | "createdAt" | undefined,
+      order: req.query.order as "asc" | "desc" | undefined,
+    });
 
-  return res.json({
-    items: result.items.map((r) => new ApprovalResponseDto(r)),
-    total: result.total,
-    page: result.page,
-    pageSize: result.pageSize,
-    totalPages: result.totalPages,
-  });
+    return res.json({
+      items: result.items.map((r) => new ApprovalResponseDto(r)),
+      page: result.page,
+      pageSize: result.pageSize,
+    });
+  } catch (err) {
+    next(err);
+  }
 };
 
-export const getById = (
+export const getById = async (
   req: Request<IdParams>,
   res: Response,
   next: NextFunction,
 ) => {
   try {
-    const record = service.getById(Number(req.params.id));
+    const record = await service.getById(Number(req.params.id));
     return res.json(new ApprovalResponseDto(record));
   } catch (err) {
     next(err);
   }
 };
 
-export const create = (req: Request, res: Response, next: NextFunction) => {
+export const create = async (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
   try {
     const dto = new CreateApprovalDto(req.body);
-    const record = service.create({
+    const record = await service.create({
       accessRequestId: dto.accessRequestId,
       approverId: dto.approverId,
       decision: dto.decision,
@@ -59,14 +66,14 @@ export const create = (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export const update = (
+export const update = async (
   req: Request<IdParams>,
   res: Response,
   next: NextFunction,
 ) => {
   try {
     const dto = new UpdateApprovalDto(req.body);
-    const record = service.update(Number(req.params.id), {
+    const record = await service.update(Number(req.params.id), {
       decision: dto.decision,
       notes: dto.notes,
     });
@@ -76,13 +83,13 @@ export const update = (
   }
 };
 
-export const remove = (
+export const remove = async (
   req: Request<IdParams>,
   res: Response,
   next: NextFunction,
 ) => {
   try {
-    service.remove(Number(req.params.id));
+    await service.remove(Number(req.params.id));
     return res.status(204).send();
   } catch (err) {
     next(err);
