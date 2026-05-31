@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Менеджер заявок на доступ до лабораторії</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <h1>Менеджер заявок на доступ до лабораторії</h1>
+
+    <div id="notice" class="notice"></div>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="users">👤 Користувачі</button>
+      <button class="tab-btn" data-tab="requests">📋 Заявки</button>
+      <button class="tab-btn" data-tab="approvals">✅ Рішення</button>
+    </div>
+
+    <!-- ВКЛАДКА USERS -->
+    <div id="tab-users" class="tab-content active">
+      <div class="container">
+        <form id="userForm">
+          <h2 id="userFormTitle">Новий користувач</h2>
+
+          <label>Ім'я</label>
+          <input type="text" id="uName" />
+
+          <label>Email</label>
+          <input type="email" id="uEmail" />
+
+          <div id="userErrorBox" class="error-text"></div>
+
+          <button type="submit" id="userSubmitBtn">Зберегти</button>
+          <button type="button" id="userCancelBtn" style="display:none">Скасувати</button>
+        </form>
+
+        <div class="table-container">
+          <h2>Список користувачів</h2>
+          <div id="userListStatus" class="list-status"></div>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Ім'я</th>
+                <th>Email</th>
+                <th>Створено</th>
+                <th>Дії</th>
+              </tr>
+            </thead>
+            <tbody id="userTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ВКЛАДКА ACCESS REQUESTS -->
+    <div id="tab-requests" class="tab-content">
+      <div class="container">
+        <form id="requestForm">
+          <h2 id="requestFormTitle">Нова заявка</h2>
+
+          <label>Користувач</label>
+          <select id="userId">
+            <option value="">Оберіть користувача</option>
+          </select>
+
+          <label>Дата доступу</label>
+          <input type="datetime-local" id="date" />
+
+          <label>Тип доступу</label>
+          <select id="accessType">
+            <option value="">Оберіть</option>
+            <option value="Read">Read</option>
+            <option value="Write">Write</option>
+            <option value="Admin">Admin</option>
+          </select>
+
+          <label>Коментар</label>
+          <textarea id="comments" rows="3"></textarea>
+
+          <label>Статус</label>
+          <select id="status">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+          </select>
+
+          <div id="requestErrorBox" class="error-text"></div>
+
+          <button type="submit" id="requestSubmitBtn">Зберегти заявку</button>
+          <button type="button" id="requestCancelBtn" style="display:none">Скасувати</button>
+        </form>
+
+        <div class="table-container">
+          <h2>Список заявок</h2>
+          <div class="filters-panel">
+            <select id="statusFilter">
+              <option value="">Усі статуси</option>
+              <option value="Pending">Pending</option>
+              <option value="Approved">Approved</option>
+              <option value="Rejected">Rejected</option>
+            </select>
+            <select id="sortOrder">
+              <option value="desc">Спочатку нові</option>
+              <option value="asc">Спочатку старі</option>
+            </select>
+          </div>
+          <div id="requestListStatus" class="list-status"></div>
+        <table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>ID</th>
+      <th>Користувач</th>
+      <th>Дата</th>
+      <th>Тип доступу</th>
+      <th>Коментар</th>
+      <th>Статус</th>
+      <th>Дії</th>
+    </tr>
+  </thead>
+  <tbody id="requestTableBody"></tbody>
+</table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ВКЛАДКА APPROVALS -->
+    <div id="tab-approvals" class="tab-content">
+      <div class="container">
+        <form id="approvalForm">
+          <h2 id="approvalFormTitle">Нове рішення</h2>
+
+          <label>Заявка</label>
+          <select id="accessRequestId">
+            <option value="">Оберіть заявку</option>
+          </select>
+
+          <label>Схвалювач (User ID)</label>
+          <select id="approverId">
+            <option value="">Оберіть користувача</option>
+          </select>
+
+          <label>Рішення</label>
+          <select id="decision">
+            <option value="">Оберіть</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+          </select>
+
+          <label>Примітки</label>
+          <textarea id="notes" rows="3"></textarea>
+
+          <div id="approvalErrorBox" class="error-text"></div>
+
+          <button type="submit" id="approvalSubmitBtn">Зберегти рішення</button>
+          <button type="button" id="approvalCancelBtn" style="display:none">Скасувати</button>
+        </form>
+
+        <div class="table-container">
+          <h2>Список рішень</h2>
+          <div class="filters-panel">
+            <select id="decisionFilter">
+              <option value="">Усі рішення</option>
+              <option value="Approved">Approved</option>
+              <option value="Rejected">Rejected</option>
+            </select>
+          </div>
+          <div id="approvalListStatus" class="list-status"></div>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Заявка ID</th>
+                <th>Схвалювач</th>
+                <th>Рішення</th>
+                <th>Примітки</th>
+                <th>Дата</th>
+                <th>Дії</th>
+              </tr>
+            </thead>
+            <tbody id="approvalTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
