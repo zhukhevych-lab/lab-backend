@@ -24,48 +24,39 @@ export const getAll = async (): Promise<User[]> => {
 };
 
 export const getById = async (id: number): Promise<User | undefined> => {
-  const sql = `SELECT id, name, email, createdAt FROM Users WHERE id = ${id};`;
+  // ЛР5 — параметризований запит
+  const sql = `SELECT id, name, email, createdAt FROM Users WHERE id = ?;`;
   logSql(sql);
-  return get<User>(sql);
+  return get<User>(sql, [id]);
 };
 
 export const create = async (data: CreateUserInput): Promise<User> => {
   const now = new Date().toISOString();
-  const name = data.name.replace(/'/g, "''");
-  const email = data.email.replace(/'/g, "''");
-  const sql = `
-    INSERT INTO Users (name, email, createdAt)
-    VALUES ('${name}', '${email}', '${now}');
-  `;
+  // ЛР5 — параметризований INSERT
+  const sql = `INSERT INTO Users (name, email, createdAt) VALUES (?, ?, ?);`;
   logSql(sql);
-  const result = await run(sql);
+  const result = await run(sql, [data.name, data.email, now]);
   return (await getById(result.lastID))!;
 };
 
-export const update = async (
-  id: number,
-  data: UpdateUserInput,
-): Promise<User | null> => {
+export const update = async (id: number, data: UpdateUserInput): Promise<User | null> => {
   const existing = await getById(id);
   if (!existing) return null;
 
-  const name = (data.name ?? existing.name).replace(/'/g, "''");
-  const email = (data.email ?? existing.email).replace(/'/g, "''");
+  const name = data.name ?? existing.name;
+  const email = data.email ?? existing.email;
 
-  const sql = `
-    UPDATE Users
-    SET name = '${name}', email = '${email}'
-    WHERE id = ${id};
-  `;
+  // ЛР5 — параметризований UPDATE
+  const sql = `UPDATE Users SET name = ?, email = ? WHERE id = ?;`;
   logSql(sql);
-  const result = await run(sql);
+  const result = await run(sql, [name, email, id]);
   if (result.changes === 0) return null;
   return (await getById(id))!;
 };
 
 export const remove = async (id: number): Promise<boolean> => {
-  const sql = `DELETE FROM Users WHERE id = ${id};`;
+  const sql = `DELETE FROM Users WHERE id = ?;`;
   logSql(sql);
-  const result = await run(sql);
+  const result = await run(sql, [id]);
   return result.changes > 0;
 };

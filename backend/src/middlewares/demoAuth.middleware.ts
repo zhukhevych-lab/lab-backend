@@ -1,0 +1,25 @@
+import { Request, Response, NextFunction } from "express";
+
+/**
+ * ЛР5 — демо-ідентифікація через заголовок X-Demo-UserId.
+ * Повна автентифікація (JWT/session) — додаткове завдання;
+ * тут фокус на перевірці прав доступу (IDOR).
+ */
+export function demoAuth(req: Request, res: Response, next: NextFunction): void {
+  const raw = req.header("X-Demo-UserId");
+
+  if (!raw) {
+    res.status(401).json({ error: { message: "Unauthorized: X-Demo-UserId header is required" } });
+    return;
+  }
+
+  const id = Number(raw);
+  if (!Number.isInteger(id) || id < 1) {
+    res.status(401).json({ error: { message: "Unauthorized: X-Demo-UserId must be a positive integer" } });
+    return;
+  }
+
+  // Прикріплюємо до req — решта маршрутів читають req.user.id
+  (req as Request & { user: { id: number } }).user = { id };
+  next();
+}

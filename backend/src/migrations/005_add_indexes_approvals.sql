@@ -1,1 +1,0 @@
-CREATE INDEX IF NOT EXISTS idx_approvals_accessRequestId ON Approvals(accessRequestId);

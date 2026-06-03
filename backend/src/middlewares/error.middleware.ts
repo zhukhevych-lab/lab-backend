@@ -1,50 +1,32 @@
-import { Request, Response, NextFunction, ErrorRequestHandler } from "express";
+import { Request, Response, NextFunction } from "express";
+import AppError from "../utils/AppError";
 
-type AppError = Error & {
-  status?: number;
-  details?: unknown[];
-};
-
-const errorMiddleware: ErrorRequestHandler = (
-  err: AppError,
+const errorHandler = (
+  err: unknown,
   req: Request,
   res: Response,
-  _next: NextFunction,
-) => {
-  const msg = String(err?.message ?? err);
+  next: NextFunction,
+): void => {
+  console.error("[ERROR]", err);
 
-  if (msg.includes("UNIQUE constraint failed")) {
-    return res.status(409).json({
+  const isDev = process.env.NODE_ENV !== "production";
+
+  if (err instanceof AppError) {
+    res.status(err.status).json({
       error: {
-        code: "CONFLICT",
-        message: "Unique constraint violation",
-        details: [msg],
+        message: err.message,
+        ...(err.details?.length ? { details: err.details } : {}),
       },
     });
+    return;
   }
 
-  if (
-    msg.includes("NOT NULL constraint failed") ||
-    msg.includes("CHECK constraint failed")
-  ) {
-    return res.status(400).json({
-      error: {
-        code: "INVALID_DATA",
-        message: "Invalid data",
-        details: [msg],
-      },
-    });
-  }
-
-  console.error(err);
-
-  return res.status(err.status ?? 500).json({
+  res.status(500).json({
     error: {
-      code: "ERROR",
-      message: err.message ?? "Internal Server Error",
-      details: err.details ?? [],
+      message: "Internal Server Error",
+      ...(isDev && err instanceof Error ? { details: err.message } : {}),
     },
   });
 };
 
-export default errorMiddleware;
+export default errorHandler;
